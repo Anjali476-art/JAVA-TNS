@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class SampleDemo {
 
-	public static void main(String[] args) {
+	@SuppressWarnings({ "unused", "resource" })
+    public static void main(String[] args) {
 		 Sample ob = new Sample();  //default/0 para con
 		
 		Scanner sc = new Scanner(System.in);
